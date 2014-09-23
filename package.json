@@ -1,0 +1,36 @@
+{
+  "name": "koa-webpack-dev",
+  "version": "0.0.0",
+  "description": "Koa based middleware for webpack development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomchentw/koa-webpack-dev"
+  },
+  "keywords": [
+    "React",
+    "bower",
+    "webpack",
+    "jade"
+  ],
+  "author": {
+    "name": "tomchentw",
+    "email": "developer@tomchentw.com",
+    "url": "https://github.com/tomchentw"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://tomchentw.mit-license.org"
+  },
+  "bugs": {
+    "url": "https://github.com/tomchentw/koa-webpack-dev/issues"
+  },
+  "homepage": "https://github.com/tomchentw/koa-webpack-dev",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
