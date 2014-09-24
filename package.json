@@ -11,10 +11,11 @@
     "url": "https://github.com/tomchentw/koa-webpack-dev"
   },
   "keywords": [
-    "React",
-    "bower",
-    "webpack",
-    "jade"
+    "koa",
+    "middleware",
+    "file",
+    "static",
+    "webpack"
   ],
   "author": {
     "name": "tomchentw",
@@ -30,7 +31,14 @@
   },
   "homepage": "https://github.com/tomchentw/koa-webpack-dev",
   "devDependencies": {
+    "koa": "^0.12.1",
+    "mocha": "^1.21.4",
+    "should": "^4.0.4",
+    "supertest": "^0.13.0"
   },
   "dependencies": {
+    "debug": "*",
+    "memory-fs": "^0.1.0",
+    "native-or-bluebird": "^1.1.1"
   }
 }
