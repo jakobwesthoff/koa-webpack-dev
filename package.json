@@ -36,9 +36,15 @@
     "should": "^4.0.4",
     "supertest": "^0.13.0"
   },
+  "peerDependencies": {
+    "webpack": "^1.4.3",
+    "webpack-dev-server": "^1.6.5"
+  },
   "dependencies": {
     "debug": "*",
     "memory-fs": "^0.1.0",
-    "native-or-bluebird": "^1.1.1"
+    "mime": "^1.2.11",
+    "native-or-bluebird": "^1.1.1",
+    "socket.io": "^0.9.17"
   }
 }
