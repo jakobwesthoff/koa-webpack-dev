@@ -1,1 +1,1 @@
-var debug = require('debug')('koa-webpack-dev');
+module.exports = require('./lib');
