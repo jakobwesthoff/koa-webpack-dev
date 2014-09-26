@@ -1,6 +1,6 @@
 {
   "name": "koa-webpack-dev",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Koa based middleware for webpack development",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,8 @@
     "koa": "^0.12.1",
     "mocha": "^1.21.4",
     "should": "^4.0.4",
-    "supertest": "^0.13.0"
+    "supertest": "^0.13.0",
+    "tomchentw-npm-dev": "0.0.2"
   },
   "peerDependencies": {
     "webpack": "^1.4.3",
