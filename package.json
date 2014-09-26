@@ -35,7 +35,7 @@
     "mocha": "^1.21.4",
     "should": "^4.0.4",
     "supertest": "^0.13.0",
-    "tomchentw-npm-dev": "0.0.2"
+    "tomchentw-npm-dev": "0.0.12"
   },
   "peerDependencies": {
     "webpack": "^1.4.3",
