@@ -1,4 +1,5 @@
 # koa-webpack-dev [![Travis CI][travis-image]][travis-url] [![Quality][codeclimate-image]][codeclimate-url] [![Coverage][coveralls-image]][coveralls-url] [![Dependencies][gemnasium-image]][gemnasium-url]
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/tomchentw/koa-webpack-dev?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 > Koa based middleware for webpack development
 
 [![Version][npm-image]][npm-url]
