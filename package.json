@@ -1,10 +1,15 @@
 {
+  "__template__gist__": "https://gist.github.com/tomchentw/0dc24c30955c1a6c94d4#file-package-json",
   "name": "koa-webpack-dev",
   "version": "0.1.1",
   "description": "Koa based middleware for webpack development",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "npm dedupe",
+    "test": "mocha test/index.js --require should",
+    "dev": "mocha test/index.js --require should --watch",
+    "test_travis": "istanbul cover _mocha -- test/index.js --require should",
+    "coverage_travis": "codeclimate < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
@@ -15,7 +20,9 @@
     "middleware",
     "file",
     "static",
-    "webpack"
+    "webpack",
+    "webpack-middleware",
+    "webpack-dev-server"
   ],
   "author": {
     "name": "tomchentw",
@@ -30,13 +37,6 @@
     "url": "https://github.com/tomchentw/koa-webpack-dev/issues"
   },
   "homepage": "https://github.com/tomchentw/koa-webpack-dev",
-  "devDependencies": {
-    "koa": "^0.12.1",
-    "mocha": "^1.21.4",
-    "should": "^4.0.4",
-    "supertest": "^0.13.0",
-    "tomchentw-npm-dev": "0.0.13"
-  },
   "peerDependencies": {
     "webpack": "^1.4.3",
     "webpack-dev-server": "^1.6.5"
@@ -47,5 +47,17 @@
     "mime": "^1.2.11",
     "native-or-bluebird": "^1.1.1",
     "socket.io": "^0.9.17"
+  },
+  "devDependencies": {
+    "codeclimate-test-reporter": "0.0.4",
+    "istanbul": "^0.3.2",
+    "koa": "^0.12.1",
+    "mocha": "^2.0.1",
+    "mocha-jscs": "^1.0.0",
+    "mocha-jshint": "0.0.9",
+    "should": "^4.0.4",
+    "sinon": "^1.10.3",
+    "supertest": "^0.13.0",
+    "tomchentw-npm-dev": "^1.1.0"
   }
 }
