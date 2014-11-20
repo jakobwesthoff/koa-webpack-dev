@@ -5,9 +5,9 @@
   "description": "Koa based middleware for webpack development",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm dedupe",
     "test": "mocha test/index.js --require should",
     "dev": "mocha test/index.js --require should --watch",
+    "dev_install": "npm install && npm dedupe",
     "test_travis": "istanbul cover _mocha -- test/index.js --require should",
     "coverage_travis": "codeclimate < coverage/lcov.info"
   },
