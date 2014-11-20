@@ -1,7 +1,7 @@
 {
   "__template__gist__": "https://gist.github.com/tomchentw/0dc24c30955c1a6c94d4#file-package-json",
   "name": "koa-webpack-dev",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Koa based middleware for webpack development",
   "main": "index.js",
   "scripts": {
